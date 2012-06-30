@@ -16,7 +16,8 @@
 
 <idea-plugin version="2">
     <name>Launchpad Tasks</name>
-    <description>Launchpad tasks in your favorite IDE. https://launchpad.net/lp-intellij-tasks-provider for project page
+    <description>Launchpad tasks / bugs in your favorite IDE. https://launchpad.net/lp-intellij-tasks-provider for
+        project page
         containing bug reports and feature requests. https://github.com/norrs/launchpad-intellij-tasks-provider for
         forking and making pull requests!
     </description>
@@ -25,6 +26,7 @@
     <idea-version since-build="8000"/>
 
     <depends>com.intellij.tasks</depends>
+    <depends optional="true">com.intellij.modules.java</depends>
 
     <application-components>
         <!-- Add your application components here -->
