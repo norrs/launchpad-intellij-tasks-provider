@@ -16,7 +16,10 @@
 
 <idea-plugin version="2">
     <name>Launchpad Tasks</name>
-    <description>Launchpad tasks in your favorite IDE</description>
+    <description>Launchpad tasks in your favorite IDE. https://launchpad.net/lp-intellij-tasks-provider for project page
+        containing bug reports and feature requests. https://github.com/norrs/launchpad-intellij-tasks-provider for
+        forking and making pull requests!
+    </description>
     <version>1.0</version>
     <vendor>norrs</vendor>
     <idea-version since-build="8000"/>
